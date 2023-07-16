@@ -1,0 +1,107 @@
+#include <iostream>
+using namespace std;
+int main() {
+    short int MAX_WORD_SIZE;
+    short int n;
+    short int mode;
+    short int maxLen = 0;
+    char l;
+    int k;
+    char* addKeys;
+    int* values;
+
+
+    cin >> MAX_WORD_SIZE;
+    cin >> n;
+
+    char** words = (char**)malloc(n*(MAX_WORD_SIZE+1) *sizeof(char*));;
+    for (int i = 0; i < n; i++) {
+        words[i] = (char*)malloc((MAX_WORD_SIZE + 1) * sizeof(char));
+        cin >> words[i];
+    
+}
+
+    cin >> mode;
+
+    switch (mode)
+    {
+    
+    case 0:
+        
+        for (int i = 0; i < n; i++) {
+            short tempLen = 0;
+            short j = 0;
+            while (words[i][j] != '\0') {
+                tempLen += 1;
+                j += 1;
+            
+}
+            if (tempLen >= maxLen) {
+                maxLen = tempLen;
+                
+            
+}
+        
+}
+        cout << maxLen;
+        break;
+    case 1:
+        cin >> l;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < MAX_WORD_SIZE; j++) {
+                if (words[i][j] == l) {
+                    maxLen += 1;
+                    break;
+                
+}
+            
+}
+        
+}
+        cout << maxLen;
+        break;
+    case 2:
+        for (int i = n - 1; i >= 0; i--) {
+            cout << words[i] << " ";
+        
+}
+        break;
+    case 3:
+        cin >> k;
+        addKeys = (char*)malloc(sizeof(char) * (k + 1));
+        values = (int*)malloc(sizeof(int) * (k+1));
+        for (int i = 0; i < k; i++) {
+            cin >> addKeys[i];
+            values[i] = 0;
+        
+}
+
+        for (int i = 0; i < k; i++) {
+            for (int j = 0; j < n; j++) {
+                for (int h = 0; h < MAX_WORD_SIZE; h++) {
+                    if (words[j][h] == addKeys[i]) {
+                        values[i] += 1;
+                        break;
+                    
+}
+                
+}
+            
+}
+        
+}
+
+        for (int i = 0; i < k; i++) {
+            cout << addKeys[i] << ": " << values[i] << '/' << n << "\t";
+        
+}
+
+        break;
+
+    default:
+        break;
+    
+}
+
+    return 0;
+}
