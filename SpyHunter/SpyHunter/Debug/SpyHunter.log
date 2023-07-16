@@ -1,0 +1,23 @@
+﻿  main.cpp
+C:\Users\kuber\source\repos\SpyHunter\SpyHunter\main.cpp(1251,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  SpyHunter.vcxproj -> C:\Users\kuber\source\repos\SpyHunter\Debug\SpyHunter.exe
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SDL2-2.0.10\lib\x86\SDL2.dll
+  1 File(s) copied
+  A subdirectory or file C:\Users\kuber\source\repos\SpyHunter\Debug\Textures already exists.
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\Textures\alivePlayer.bmp
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\Textures\cs8x8.bmp
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\Textures\deadPlayer.bmp
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\Textures\leftRightBound.bmp
+  4 File(s) copied
+  A subdirectory or file C:\Users\kuber\source\repos\SpyHunter\Debug\SaveFiles already exists.
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-44-40
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-44-44
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-44-50
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-44-57
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-45-03
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_13-45-16
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_14-02-25
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_14-02-26
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\2023-01-15_14-02-28
+  C:\Users\kuber\source\repos\SpyHunter\SpyHunter\SaveFiles\FilesList
+  10 File(s) copied
