@@ -1,0 +1,3 @@
+C:/Users/kuber/CLionProjects/JakDojade/cmake-build-debug/CMakeFiles/JakDojade.dir
+C:/Users/kuber/CLionProjects/JakDojade/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kuber/CLionProjects/JakDojade/cmake-build-debug/CMakeFiles/rebuild_cache.dir
